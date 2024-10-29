@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuentra a tu SuperHero</title>
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+<!-- jquery -->
+        <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+          <!-- css -->
+   <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+  <div class="content">
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand mx-5" href="#">
+            <img src="./img/shield_1705786.png" alt="Logo" width="5%"  class="d-inline-block align-text-top">
+            <strong>SuperHero</strong>
+          </a>
+        </div>
+      </nav>
+    <h1 class="text-center mt-5"> Encuentra tu<br><strong>SuperHero</strong></h1>
+
+    <form class="text-center" id="superhero-form">
+        <div class="mb-3">
+            <!-- <label  for="superhero-id" class="form-label">Ingresa el ID de tu SuperHero</label><br> -->
+            <input  type="number" id="superhero-id" placeholder="Ingresa el ID de tu SuperHero" class="form-control mt-5">
+        </div>
+        <button type="submit" class="btn btn-danger px-5 py-2" >Buscar</button>
+    </form>
+ 
+
+    <div class="container text-center mt-5">
+      <div class="row">
+        <div class="col">
+          <div id="info-superhero" class="mt-4 mx-5 text-start"></div>
+        </div>
+        <div class="col">
+          <div id="chartContainer" style="height: 30%; width: 100%;"></div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+</div>
+   <!-- js -->
+   <script src="./js/script.js"></script>
+    <!-- canva js -->
+    <script src="https://cdn.canvasjs.com/canvasjs.min.js"> </script>
+</body>
+
+</html> 

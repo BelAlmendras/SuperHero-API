@@ -1,0 +1,21 @@
+body {
+    background-image: url(../img/superhero-collage-wr867e5yvcw4br92.jpg);
+    background-size: auto; 
+    background-position: center; 
+    background-repeat: repeat-y; 
+    color: white;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.7) !important;
+}
+h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+input {	
+    width: 30% !important;
+    margin: auto;
+}
+
